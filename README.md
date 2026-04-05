@@ -1,10 +1,12 @@
+[![npm version](https://img.shields.io/npm/v/your-package-name.svg)](https://www.npmjs.com/package/your-package-name)
+
 # 🐉 Mintikaryū - The Ancient Summoning
 
-*A sacred CLI tool to summon the ancient dragon Mintikaryū (みんてぃかりゅう) from the deepest realms of the terminal.*
+_A sacred CLI tool to summon the ancient dragon Mintikaryū (みんてぃかりゅう) from the deepest realms of the terminal._
 
 ![The Manifestation of Mintikaryū](./render1775404114849.gif)
 
-> *"When the digital abyss burns with the fires of ancient times, Mintikaryū shall rise to reclaim its hollow domain."*
+> _"When the digital abyss burns with the fires of ancient times, Mintikaryū shall rise to reclaim its hollow domain."_
 
 ## 📜 The Sacred Grimoire (Features)
 
@@ -52,7 +54,7 @@ node index.js
 
 ## ⚔️ Banishing the Beast (Controls)
 
-A dragon's presence commands heavy tolls upon the mortal realm. To banish Mintikaryū back to its slumber, sever the connection by invoking the celestial banishment sigil: 
+A dragon's presence commands heavy tolls upon the mortal realm. To banish Mintikaryū back to its slumber, sever the connection by invoking the celestial banishment sigil:
 
 Press `CTRL + C`
 
