@@ -17,28 +17,35 @@
 
 - **Node.js**: The sacred runtime. Ensure you have a modern version supporting ESM modules (Node 12.20.0 or higher).
 
-## 🔮 Forging the Pact (Installation)
+## 🔮 The Summoning Ritual (Usage)
 
-To embed the `summon-dragon` incantation into your system so it may be cast anywhere within your digital kingdom, you must bind its essence globally. 
-
-Trace these arcane coordinates within the project's sanctum (root directory):
+Mintikaryū has been sealed within the NPM registry. You may unleash the beast with a single invocation anywhere in your digital kingdom, without prior installation:
 
 ```bash
-npm install
-npm link
+npx mintikaryu
 ```
 
-Once the pact is woven, you may call upon the ancient beast simply by chanting in your terminal:
+### Forging a Permanent Pact (Global Install)
+
+To etch the `summon-dragon` command permanently into your system's global runes, install the package globally:
+
+```bash
+npm install -g mintikaryu
+```
+
+Once the pact is woven, simply summon it in your terminal at any time with:
 
 ```bash
 summon-dragon
 ```
 
-### The Solitary Invocation (Running Locally)
+### The Solitary Invocation (Local Development)
 
-Should you wish to cast the spell solely within the confines of its origin folder, without forging a global pact:
+Should you wish to study the arcane sigils locally or develop the ritual further:
 
 ```bash
+git clone https://github.com/aayushananda/Dragon_god.git
+cd Dragon_god
 npm install
 node index.js
 ```

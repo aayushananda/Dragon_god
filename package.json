@@ -1,19 +1,36 @@
 {
-  "name": "dragon",
+  "name": "mintikaryu",
   "version": "1.0.0",
-  "description": "",
+  "description": "A sacred CLI tool to summon the ancient fire dragon Mintikaryū (みんてぃかりゅう)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "terminal",
+    "ascii-art",
+    "animation",
+    "dragon",
+    "fire",
+    "ansi",
+    "true-color",
+    "japanese-dragon",
+    "fire-simulation",
+    "terminal-art",
+    "mythology"
+  ],
+  "author": "Aayush Anand",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayushananda/Dragon_god.git"
+  },
   "dependencies": {
     "cli-cursor": "^5.0.0"
   },
   "type": "module",
   "bin": {
-    "summon-dragon": "./index.js"
+    "summon-dragon": "index.js"
   }
 }
