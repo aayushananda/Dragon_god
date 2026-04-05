@@ -1,6 +1,6 @@
 {
   "name": "mintikaryu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sacred CLI tool to summon the ancient fire dragon Mintikaryū (みんてぃかりゅう)",
   "main": "index.js",
   "scripts": {
