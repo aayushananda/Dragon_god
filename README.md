@@ -1,4 +1,4 @@
-[![npm version](https://img.shields.io/npm/v/your-package-name.svg)](https://www.npmjs.com/package/your-package-name)
+[![npm version](https://www.npmjs.com/package/mintikaryu.svg)](https://www.npmjs.com/package/mintikaryu)
 
 # 🐉 Mintikaryū - The Ancient Summoning
 
