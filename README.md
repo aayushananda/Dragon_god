@@ -1,52 +1,56 @@
-# Summon Dragon 🐉🔥
+# 🐉 Mintikaryū - The Ancient Summoning
 
-A captivating ASCII terminal animation featuring a majestic dragon entering the screen against a dynamic, physics-based fire background.
+*A sacred CLI tool to summon the ancient dragon Mintikaryū (みんてぃかりゅう) from the deepest realms of the terminal.*
 
-![Summon Dragon Demo](./render1775404114849.gif)
+![The Manifestation of Mintikaryū](./render1775404114849.gif)
 
-## Features
+> *"When the digital abyss burns with the fires of ancient times, Mintikaryū shall rise to reclaim its hollow domain."*
 
-- **Dynamic Fire Simulation**: A custom, real-time particle-based fire effect using custom intensity algorithms and character mapping.
-- **Smooth Animations**: The dragon gracefully enters from the bottom of the screen to rest perfectly in the center, running at roughly 30 FPS. 
-- **Graceful Terminal Integration**: Handles dynamic terminal resizing seamlessly, hiding the cursor during the process and restoring the terminal properly.
-- **True Color Colors**: Leverages custom ANSI escape code generation to colorize the artwork correctly.
+## 📜 The Sacred Grimoire (Features)
 
-## Prerequisites
+- **The Flames of Genesis**: A dynamic, physics-based inferno simulation forged in pure ASCII, representing the primordial energies of creation.
+- **The Gracious Ascension**: Watch in awe as Mintikaryū majestically ascends from the bottomless depths of your screen to assert absolute dominion over your terminal.
+- **Arcane Adaptability**: The ritual seamlessly adapts to the shifting dimensions of your terminal window, preserving the ancient aesthetic undisturbed.
+- **True Emerald Auras**: Ensorcelled with raw, true-color ANSI incantations to bathe your screen in the authentic, vibrant glow of the dragon's mythic scales.
 
-- **Node.js**: Requires ESM module support (Node 12.20.0+).
+## 🕯️ Reagents for the Ritual (Prerequisites)
 
-## Global Installation (The `summon-dragon` command)
+- **Node.js**: The sacred runtime. Ensure you have a modern version supporting ESM modules (Node 12.20.0 or higher).
 
-You can link the tool in your system globally so that you can simply type `summon-dragon` from any directory to run this animation.
+## 🔮 Forging the Pact (Installation)
 
-To install it globally, navigate to the project root directory and run:
+To embed the `summon-dragon` incantation into your system so it may be cast anywhere within your digital kingdom, you must bind its essence globally. 
+
+Trace these arcane coordinates within the project's sanctum (root directory):
 
 ```bash
 npm install
 npm link
 ```
 
-After linking, you can summon the dragon by typing:
+Once the pact is woven, you may call upon the ancient beast simply by chanting in your terminal:
 
 ```bash
 summon-dragon
 ```
 
-### Running Locally without Link
+### The Solitary Invocation (Running Locally)
 
-If you don't wish to link it globally, you can execute it manually from the directory:
+Should you wish to cast the spell solely within the confines of its origin folder, without forging a global pact:
 
 ```bash
 npm install
 node index.js
 ```
 
-## Controls
+## ⚔️ Banishing the Beast (Controls)
 
-- To quit the animation and restore your terminal cursor, simply press `Ctrl + C`.
+A dragon's presence commands heavy tolls upon the mortal realm. To banish Mintikaryū back to its slumber, sever the connection by invoking the celestial banishment sigil: 
 
-## Technologies
+Press `CTRL + C`
 
-- Standard `Node.js` APIs (fs, child_process, URL).
-- `cli-cursor`: Manages toggling terminal cursor state.
-- `package.json` specifies `"type": "module"` for deep ESM support.
+## ⚒️ The Arcane Foundation
+
+- **Node.js Subsystems**: Tapping into the raw, fundamental energies of the operating system.
+- `cli-cursor`: Master of illusions, concealing the cursor to perfect the summoning circle.
+- `"type": "module"`: Strict adherence to the ancient laws of modern ECMAScript.
